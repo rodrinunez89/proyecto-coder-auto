@@ -60,7 +60,40 @@ ul {
 /* MAIN */
 
 .main {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(2,auto);
+}
+
+
+.main__hero {
   display: block;
+  position: relative;
+  overflow: hidden;
+  height: 90vh;
+}
+
+.main__hero__banner {
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center center;
+ height: 100%;
+ background-attachment: fixed;
+}
+
+.main__hero__banner--home {
+  background-image: url("../images/hero_banner.jpeg");
+}
+
+.main__hero__banner--modelos{
+  background-image: url("../images/main_hero_modelos.jpg");
+}
+
+.main__hero__description {
+  width: 50%;
+  position: absolute;
+  top: 20%;
+  left: 80px;
 }
 
 .main__hero__description h1 {
@@ -77,50 +110,42 @@ ul {
   font-size: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: whitesmoke;
-  padding: 20px;
+  padding: 20px 0;
   margin-top: 10px;
   align-items: center;
 }
 
-.main__hero {
-  display: block;
-  position: relative;
-  height: 1000px;
-  overflow: hidden;
-}
 
 .main_hero_modelos {
   background-color: whitesmoke;
 }
 
-.main__hero__banner {
-  position: absolute;
-}
+
 
 .hero-img {
   filter: grayscale(0.3);
   max-width: 100%;
 }
 
-.main__hero__description {
-  position: absolute;
-  top: 20%;
-  left: 80px;
-}
+
 
 .main__content {
+  display: grid;
+  gap: 2rem;
   padding: 32px;
   background-color: rgb(90, 90, 90);
 }
 
 .main__content__article {
-  display: flex;
-  margin-bottom: 32px;
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  gap: 2rem;
+  
 }
 
 .main__content__article__image {
   display: flex;
-  gap: 5px;
+  
 }
 
 .main__content__article__image img {
@@ -134,17 +159,17 @@ ul {
 }
 
 .main__content__article__text {
-  padding-left: 20px;
-  flex-direction: column;
-  margin: 10px;
+  justify-content: center;
+    display: flex;
+    flex-direction: column;
+  
 }
 
 .main__content__article__text p {
   color: white;
   font-size: 20px;
   font-family: "Cairo", sans-serif;
-  margin: 10px;
-  padding: 15px;
+  margin: 0;
 }
 
 .main__content__article__text h2 {
