@@ -178,8 +178,8 @@ ul {
     justify-content: space-between;
 }
 
-.footer__top__nav__list__item:last-child {
-  margin-bottom: 0;
+.footer__top__nav__list__item{
+  margin: 5px 0px;
 }
 
 .footer__top__nav__list__item a {
@@ -201,6 +201,7 @@ ul {
 .footer__top__logo {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .footer__bottom {
