@@ -168,8 +168,14 @@ ul {
   border-bottom: 1px solid #fff;
 }
 
-.footer__top__nav__list__item {
-  margin-bottom: 10px;
+.footer__top__nav {
+  display: flex;
+}
+
+.footer__top__nav__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .footer__top__nav__list__item:last-child {
