@@ -384,7 +384,9 @@ textarea:focus {
   .main__hero {
     height: 80vh;
   }
-
+  .main__hero__banner{
+    background-attachment: unset;
+  }
   .main__hero__description {
     width: 100%;
     display: flex;
