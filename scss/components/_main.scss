@@ -1,0 +1,25 @@
+@import "../base/variables";
+/*MAIN*/
+.main__hero {
+    height: 80vh; 
+    .main__hero__banner {
+        background-attachment: unset; }
+    .main__hero__description {
+        width: 100%;
+        display: flex;
+        position: absolute;
+        left: 0;
+        top: 0;
+        flex-direction: column;
+        padding: 32px; }
+    .main__hero__description h1 {
+        font-size: 32px; }
+    .main__hero__description p {
+        font-size: 16px; }
+    .main__content__article {
+        grid-template-columns: 1fr; }
+    .main__content--3cols {
+        grid-template-columns: 1fr; }
+    .main__content__contact__form {
+        width: 100%; } 
+    }
