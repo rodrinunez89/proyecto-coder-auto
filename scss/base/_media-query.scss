@@ -49,11 +49,11 @@
 
   .main__hero {
     height: 80vh;
-  }
-  .main__hero__banner {
+  
+  &__banner {
     background-attachment: unset;
   }
-  .main__hero__description {
+  &__description {
     width: 100%;
     display: flex;
     position: absolute;
@@ -63,21 +63,23 @@
     padding: 32px;
   }
 
-  .main__hero__description h1 {
+  &__description h1 {
     font-size: 32px;
   }
 
-  .main__hero__description p {
+  &__description p {
     font-size: 16px;
   }
-  .main__content__article {
+}}
+  .main__content__article{
     grid-template-columns: 1fr;
-  }
+  
   .main__content--3cols {
-    grid-template-columns: 1fr;
+      grid-template-columns: 1fr;
+    }
+    .main__content__contact__form {
+      width: 100%;
+    }
   }
 
-  .main__content__contact__form {
-    width: 100%;
-  }
-}
+
