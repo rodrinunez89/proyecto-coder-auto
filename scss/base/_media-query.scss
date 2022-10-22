@@ -1,5 +1,5 @@
-/* MEDIA QUERIES  */
 
+/* MEDIA QUERIES  */
 /* -- tablet / desktop lg-- */
 @media screen and (max-width: 1200px) {
   .header__nav__list__item {
@@ -49,11 +49,11 @@
 
   .main__hero {
     height: 80vh;
-  
-  &__banner {
+  }
+  .main__hero__banner{
     background-attachment: unset;
   }
-  &__description {
+  .main__hero__description {
     width: 100%;
     display: flex;
     position: absolute;
@@ -63,23 +63,23 @@
     padding: 32px;
   }
 
-  &__description h1 {
+  .main__hero__description h1 {
     font-size: 32px;
   }
 
-  &__description p {
+  .main__hero__description p {
     font-size: 16px;
   }
-}}
-  .main__content__article{
+  .main__content__article {
     grid-template-columns: 1fr;
-  
-  .main__content--3cols {
-      grid-template-columns: 1fr;
-    }
-    .main__content__contact__form {
-      width: 100%;
-    }
   }
+  .main__content--3cols {
+    grid-template-columns: 1fr;
+  }
+
+  .main__content__contact__form {
+    width: 100%;
+  }
+}
 
 

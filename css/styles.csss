@@ -187,24 +187,7 @@ ul {
   --bs-card-bg: whitesmoke;
 }
 
-.btn-primary {
-  --primary-color: #5a5a5a;
-  --secondary-color: #fff;
-  --active-color: #262626;
 
-  --bs-btn-color: var(--secondary-color);
-  --bs-btn-bg: var(--primary-color);
-  --bs-btn-border-color: var(--primary-color);
-  --bs-btn-hover-color: var(--secondary-color);
-  --bs-btn-hover-bg: var(--active-color);
-  --bs-btn-hover-border-color: var(--active-color);
-  --bs-btn-active-color: var(--active-color);
-  --bs-btn-active-bg: var(--active-color);
-  --bs-btn-active-border-color: var(--active-color);
-  --bs-btn-disabled-color: var(--secondary-color);
-  --bs-btn-disabled-bg: var(--primary-color);
-  --bs-btn-disabled-border-color: var(--primary-color);
-}
 
 .main__content__contact {
   display: grid;
@@ -228,7 +211,24 @@ ul {
   margin-bottom: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.btn-primary {
+  --primary-color: #5a5a5a;
+  --secondary-color: #fff;
+  --active-color: #262626;
 
+  --bs-btn-color: var(--secondary-color);
+  --bs-btn-bg: var(--primary-color);
+  --bs-btn-border-color: var(--primary-color);
+  --bs-btn-hover-color: var(--secondary-color);
+  --bs-btn-hover-bg: var(--active-color);
+  --bs-btn-hover-border-color: var(--active-color);
+  --bs-btn-active-color: var(--active-color);
+  --bs-btn-active-bg: var(--active-color);
+  --bs-btn-active-border-color: var(--active-color);
+  --bs-btn-disabled-color: var(--secondary-color);
+  --bs-btn-disabled-bg: var(--primary-color);
+  --bs-btn-disabled-border-color: var(--primary-color);
+}
 input,
 textarea {
   width: 100%;

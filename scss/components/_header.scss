@@ -1,6 +1,11 @@
 @import "../base/variables";
 
 /*HEADER*/
+.grid_body {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: 1fr;
+  }
 
 .header {
     height: auto;
@@ -22,6 +27,11 @@
         align-items: center;
         justify-content: flex-end;
     }
+    &__nav__list {
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+    }
+
     &__nav__list__item {
         padding: 10px;
         margin: 20px;

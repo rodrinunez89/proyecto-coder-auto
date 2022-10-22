@@ -6,37 +6,31 @@
     grid-template-columns: auto;
     grid-template-rows: repeat(2, auto);
   
+    &__hero {
+      display: block;
+      position: relative;
+      overflow: hidden;
+      height: 90vh;
+      width: 100vw;
+    }
   
-  &__hero {
-    display: block;
-    position: relative;
-    overflow: hidden;
-    height: 90vh;
-    width: 100vw;
-  }
-  
-  &__hero__banner {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 100%;
-    background-attachment: fixed;
-  }
-  
-  &__hero__banner--home {
-    background-image: url("../images/hero_banner.jpeg");
-  }
-  
-  &__hero__banner--modelos {
-    background-image: url("../images/main_hero_modelos.jpg");
-  }
-  
+    &__hero__banner {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      height: 100%;
+      background-attachment: fixed;
+    }
   &__hero__description {
     width: 50%;
     position: absolute;
     top: 20%;
     left: 80px;
   }
+  
+ 
+  
+ 
   
   &__hero__description h1 {
     color: white;
@@ -146,6 +140,14 @@
   .hero-img {
     filter: grayscale(0.3);
     max-width: 100%;
+  }
+
+  .main__hero__banner--home {
+    background-image: url("../images/hero_banner.jpeg");
+  }
+  
+  .main__hero__banner--modelos {
+    background-image: url("../images/main_hero_modelos.jpg");
   }
   input,
   textarea {
