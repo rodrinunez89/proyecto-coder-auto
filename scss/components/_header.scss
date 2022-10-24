@@ -9,7 +9,7 @@
 
 .header {
     height: auto;
-    background-color: #050706;
+    background-color: $color-footer ;
     &--desktop {
         display: grid;
         grid-template-rows: auto;

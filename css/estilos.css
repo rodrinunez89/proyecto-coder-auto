@@ -20,7 +20,7 @@ ul {
 
 .header {
   height: auto;
-  background-color: #050706; }
+  background-color: #000000; }
   .header--desktop {
     display: grid;
     grid-template-rows: auto;
@@ -57,7 +57,7 @@ ul {
 .footer {
   display: grid;
   grid-template-rows: 2fr 0.5fr;
-  background-color: #050706;
+  background-color: #000000;
   width: 100vw; }
   .footer__top {
     display: grid;
@@ -149,7 +149,7 @@ ul {
     display: grid;
     gap: 2rem;
     padding: 32px;
-    background-color: #5a5a5a; }
+    background-color: #6d6d6dc6; }
   .main__content--3cols {
     grid-template-columns: repeat(3, 1fr); }
   .main__content__article {
