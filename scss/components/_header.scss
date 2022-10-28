@@ -38,9 +38,7 @@
       color: white;
       font-size: 30px;
       font-family: "Roboto", sans-serif;
-      transition-property: color, border-bottom;
-      transition-duration: 0.3s;
-      transition-timing-function: ease-in-out;
+      @include transitions("color,border-bottom",0.3s,ease-in-out);
       border-bottom: 1px solid transparent;
 
       &:hover {

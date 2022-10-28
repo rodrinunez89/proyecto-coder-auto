@@ -1,4 +1,3 @@
-
 /* FOOTER */
 .footer {
   display: grid;
@@ -10,14 +9,14 @@
     color: white;
     font-size: 25px;
     font-family: "Roboto", sans-serif;
-    transition-property: color, border-bottom;
-    transition-duration: 0.3s;
-    transition-timing-function: ease-in-out;
-    border-bottom: 1px solid transparent;}
+    @include transitions("color,border-bottom",0.3s,ease-in-out);
+    border-bottom: 1px solid transparent;
     &:hover {
       color: rgb(83, 70, 70);
       border-bottom: 1px solid rgb(83, 70, 70);
     }
+  }
+
 
   &__top {
     display: grid;
@@ -32,6 +31,7 @@
         justify-content: space-between;
         &_item {
           margin: 5px 0px;
+        }
       }
     }
     &__logo {
@@ -40,14 +40,12 @@
       align-items: center;
     }
   }
-  
 
-    &__bottom {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 2rem;
-    
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
 
     &__socialmedia {
       img {
@@ -66,5 +64,4 @@
       }
     }
   }
-}
 }

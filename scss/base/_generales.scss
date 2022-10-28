@@ -60,3 +60,9 @@ textarea:focus {
     --bs-btn-disabled-bg: var(--primary-color);
     --bs-btn-disabled-border-color: var(--primary-color);
   }
+
+  .grid_body {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: 1fr;
+  }
