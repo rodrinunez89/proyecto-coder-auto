@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+textarea {
+    min-height: 120px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+input {
+    outline: none;
+}
+
+input:focus,
+textarea:focus {
+    border: 2px solid #050706;
+    background-color: #05070651;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+
+.btn-primary {
+    --primary-color: #5a5a5a;
+    --secondary-color: #fff;
+    --active-color: #262626;
+  
+    --bs-btn-color: var(--secondary-color);
+    --bs-btn-bg: var(--primary-color);
+    --bs-btn-border-color: var(--primary-color);
+    --bs-btn-hover-color: var(--secondary-color);
+    --bs-btn-hover-bg: var(--active-color);
+    --bs-btn-hover-border-color: var(--active-color);
+    --bs-btn-active-color: var(--active-color);
+    --bs-btn-active-bg: var(--active-color);
+    --bs-btn-active-border-color: var(--active-color);
+    --bs-btn-disabled-color: var(--secondary-color);
+    --bs-btn-disabled-bg: var(--primary-color);
+    --bs-btn-disabled-border-color: var(--primary-color);
+  }
+
+  .grid_body {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: 1fr;
+  }

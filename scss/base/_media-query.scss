@@ -1,0 +1,85 @@
+
+/* MEDIA QUERIES  */
+/* -- tablet / desktop lg-- */
+@media screen and (max-width: 1200px) {
+  .header__nav__list__item {
+    padding: 10px;
+    margin: 10px;
+  }
+}
+
+/* -- Mobile -- */
+@media screen and (max-width: 992px) {
+  .header--desktop {
+    display: none;
+  }
+  .header--mobile {
+    display: block;
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+
+  .header {
+    width: 100vw;
+  }
+
+  .header__logo {
+    width: 80px;
+  }
+
+  .navbar-toggler i {
+    color: whitesmoke;
+    font-size: 2rem;
+  }
+
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar-nav .nav-item {
+    color: whitesmoke;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+
+  .main__hero {
+    height: 80vh;
+  }
+  .main__hero__banner{
+    background-attachment: unset;
+  }
+  .main__hero__description {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    flex-direction: column;
+    padding: 32px;
+  }
+
+  .main__hero__description h1 {
+    font-size: 32px;
+  }
+
+  .main__hero__description p {
+    font-size: 16px;
+  }
+  .main__content__article {
+    grid-template-columns: 1fr;
+  }
+  .main__content--3cols {
+    grid-template-columns: 1fr;
+  }
+
+  .main__content__contact__form {
+    width: 100%;
+  }
+}
+
+
